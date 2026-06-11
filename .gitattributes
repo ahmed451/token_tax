@@ -1,0 +1,6 @@
+data/sample_UNv1.0.6way.ar filter=lfs diff=lfs merge=lfs -text
+data/sample_UNv1.0.6way.en filter=lfs diff=lfs merge=lfs -text
+data/sample_UNv1.0.6way.es filter=lfs diff=lfs merge=lfs -text
+data/sample_UNv1.0.6way.fr filter=lfs diff=lfs merge=lfs -text
+data/sample_UNv1.0.6way.ru filter=lfs diff=lfs merge=lfs -text
+data/sample_UNv1.0.6way.zh filter=lfs diff=lfs merge=lfs -text
