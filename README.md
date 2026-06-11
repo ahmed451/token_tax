@@ -9,23 +9,13 @@ Token fertility rate measures how many tokens a model requires to represent a gi
 - Faster processing times
 - Lower memory usage
 
-This tool analyzes the UN Parallel Corpus across 6 languages to compare tokenizer efficiency across multiple LLM providers.
-
-Languages Supported
-
-| Code | Language |
-|------|----------|
-| ar | Arabic |
-| en | English |
-| es | Spanish |
-| fr | French |
-| ru | Russian |
-| zh | Chinese |
-
-Directory Structure
+This tool uses a sample from the UN Parallel Corpus across 6 languages to compare tokenizer efficiency across multiple LLM providers.
 
 
-bash
+### Directory Structure
+
+
+```bash
 token_tax/
 ├── README.md
 ├── fertility_rate.py      # Main analysis script
@@ -36,7 +26,7 @@ token_tax/
     ├── sample_UNv1.0.6way.fr
     ├── sample_UNv1.0.6way.ru
     └── sample_UNv1.0.6way.zh
-
+```
 
 ### Quick Start
 
@@ -95,14 +85,14 @@ done
 ### Languages and Models Analyzed
 
 
-| Language Code | Language       |
-|---------------|----------------|
-| ar            | Arabic         |
-| en            | English         |
-| es            | Arabic         |
-| fr            | Arabic         |
-| ru            | Arabic         |
-| zh            | Arabic         |
+| Language Code | Language      |
+|---------------|---------------|
+| ar            | Arabic        |
+| en            | English       |
+| es            | Spanish       |
+| fr            | French        |
+| ru            | Russian       |
+| zh            | Chinese       |
 
 
 
@@ -151,7 +141,7 @@ Gated models that may require approval:
 
 Output Format
 
-Results are saved to results_UN_<language>.txt with the following structure:
+Results are saved to a csv file with the following structure:
 
 
 Language: <language_code>
@@ -178,3 +168,5 @@ This project uses the UN Parallel Corpus. Please review the UN Corpus license te
 Contributions welcome! Areas for improvement:
 - Visualization tools for results
 - Batch processing optimizations
+
+Contact: ahmed.abdelali@gmail.com
